@@ -1,5 +1,12 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  color: gray;
 }
 
 .images {
