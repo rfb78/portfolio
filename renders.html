@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <title>Riley Buoen Portfolio</title>
-        <link rel="stylesheet" href="main.css">
+        <title>RileyBuoen Renders</title>
+        <link rel="stylesheet" type="text/css" href="css/test.css">
+        <link rel="stylesheet" href="css/test.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <meta charset="UTF-8">
     </head>
     <body>
         <!-- Side navigation -->
@@ -11,19 +14,23 @@
             <h2>Riley Buoen</h2>
             <a href="index.html">Home</a>
             <a href="renders.html">3D</a>
-            <a href="#">Cartography</a>
+            <!-- <a href="cartography.html">Cartography</a> -->
+            <button class="dropdown-btn">Cartography
+            </button>
+            <div class="dropdown-container">
+                <a href="#">3D Maps</a>
+                <a href="advcart.html">GSP 416</a>
+            </div>
         </div>
         <!-- Page content -->
-        <img src="images/01.png", class="images">
-        <div>
-            <a href="https://www.ikea.com/us/en/p/ypperlig-led-table-lamp-light-gray-00349905/">Original Reference</a>
+        <div class="gallery">
+            <a href="images/3D/full/01.png" data-lightbox="mygallery"><img src="images/3D/thumbs/01.png"></a>
+            <a href="images/3D/full/02.png" data-lightbox="mygallery"><img src="images/3D/thumbs/02.png"></a>
+            <a href="images/3D/full/03.png" data-lightbox="mygallery"><img src="images/3D/thumbs/03.png"></a>
+            <a href="images/3D/full/05.png" data-lightbox="mygallery"><img src="images/3D/thumbs/05.png"></a>
+            <a href="images/3D/full/06.png" data-lightbox="mygallery"><img src="images/3D/thumbs/06.png"></a>
+            <a href="images/3D/full/07.png" data-lightbox="mygallery"><img src="images/3D/thumbs/07.png"></a>
         </div>
-        <img src="images/02.png", class="images">
-        <img src="images/03.png", class="images">
-        <img src="images/04.png", class="images">
-        <img src="images/05.png", class="images">
-        <img src="images/06.png", class="images">
-        <img src="images/07.png", class="images">
-        <img src="images/08.png", class="images">
+        <script src="js/button_script.js"></script>
     </body>
 </html>
