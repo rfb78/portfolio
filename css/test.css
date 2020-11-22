@@ -32,6 +32,7 @@
 }
 
 .main {
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 200px;
     font-size: 20px;
     padding: 0px 10px;
@@ -49,6 +50,8 @@
 }
 
 /* side bar end */
+
+/* gallery start */
 
 .gallery {
     /* background-color: red; */
@@ -76,6 +79,8 @@
     filter: drop-shadow(16px 16px 10px lightgrey);
     transform: scale(1.1);
 }
+
+/* gallery end */
 
 /* Some media queries for responsiveness */
 @media screen and (max-height: 450px) {
